@@ -12,6 +12,7 @@ p {
 }
 body {
   text-align: center;
+  letter-spacing: 1px;
   margin 0;
 }
 a {
@@ -84,3 +85,24 @@ float: left;
     font-weight: 700;
 
   }
+
+  .status {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    height: 30px;
+  }
+
+  #score {
+    align-self: start;
+   }
+
+   #reset {
+    margin-top: 20px;
+    border: 2px solid white;
+    color: white;
+    background: #00a6b3;
+    font-size: 15px;
+    visibility: hidden;
+  }
+
+
